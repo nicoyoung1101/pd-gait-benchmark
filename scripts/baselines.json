@@ -1,0 +1,18 @@
+{
+  "PIP": {
+    "url": "https://github.com/Xinyu-Yi/PIP.git",
+    "revision": "4a281440618e90cbfd4209d83de376d21f9145de"
+  },
+  "PNP": {
+    "url": "https://github.com/Xinyu-Yi/PNP.git",
+    "revision": "2670a004ae5079f8d7db690a33f229ea2560e28f"
+  },
+  "DynaIP": {
+    "url": "https://github.com/dx118/dynaip.git",
+    "revision": "ddfff5b88b77e124744bc74a792967cb8bad6735"
+  },
+  "TIP": {
+    "url": "https://github.com/jyf588/transformer-inertial-poser.git",
+    "revision": "2a44388d11b6a4244ef2c644d829bbd12ac38145"
+  }
+}

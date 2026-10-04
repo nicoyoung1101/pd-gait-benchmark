@@ -1,0 +1,13 @@
+diff --git a/simple_transformer_with_state.py b/simple_transformer_with_state.py
+index cd5f3c3..774e82a 100644
+--- a/simple_transformer_with_state.py
++++ b/simple_transformer_with_state.py
+@@ -58,7 +58,7 @@ class TF_RNN_Past_State(nn.Module):
+         return torch.triu(torch.ones(sz, sz) * float('-inf'), diagonal=1)
+ 
+     def forward(self, x_imu, x_s):
+-        device = 'cuda' if x_imu.get_device() >= 0 else None
++        device = x_imu.device
+ 
+         x_imu = x_imu.clone()
+         x_s = x_s.clone()

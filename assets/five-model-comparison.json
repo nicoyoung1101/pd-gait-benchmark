@@ -1,0 +1,17 @@
+{
+  "source": "MoCap-derived canonical SMPL / virtual six-IMU inputs",
+  "display": "pelvis-centered, common canonical sequence and frame indices",
+  "qualitative_example": true,
+  "fps": 20,
+  "source_fps": 60,
+  "frame_stride": 3,
+  "frames": 80,
+  "models": [
+    "GT",
+    "TransPose",
+    "PIP raw",
+    "DynaIP",
+    "PNP",
+    "TIP"
+  ]
+}

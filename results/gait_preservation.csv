@@ -1,0 +1,26 @@
+model,descriptor,U0,U1,U2,rho,p
+TransPose,Joint velocity ratio,0.957,0.929,0.923,-0.630,<0.001
+TransPose,Lower-body RoM ratio,1.004,1.014,0.989,-0.103,0.514
+TransPose,Leg swing ratio,1.012,0.922,0.938,-0.565,<0.001
+TransPose,Trunk lean difference,0.615,1.169,4.172,0.422,0.005
+TransPose,Cadence ratio,0.987,0.989,0.986,0.042,0.793
+PIP raw,Joint velocity ratio,1.044,0.920,0.942,-0.487,0.001
+PIP raw,Lower-body RoM ratio,1.022,1.016,1.045,0.136,0.390
+PIP raw,Leg swing ratio,1.066,0.790,0.892,-0.473,0.002
+PIP raw,Trunk lean difference,-0.168,-0.617,0.098,0.076,0.631
+PIP raw,Cadence ratio,1.004,1.015,1.041,0.609,<0.001
+DynaIP,Joint velocity ratio,1.040,0.997,1.001,-0.454,0.003
+DynaIP,Lower-body RoM ratio,0.962,1.054,1.089,0.702,<0.001
+DynaIP,Leg swing ratio,0.822,0.774,0.848,-0.108,0.495
+DynaIP,Trunk lean difference,-2.513,-0.782,-1.838,0.238,0.130
+DynaIP,Cadence ratio,1.010,1.008,1.020,0.053,0.737
+PNP,Joint velocity ratio,0.921,0.973,0.914,0.084,0.597
+PNP,Lower-body RoM ratio,0.934,0.935,0.935,0.117,0.462
+PNP,Leg swing ratio,0.915,0.897,0.923,0.038,0.814
+PNP,Trunk lean difference,-2.437,-2.108,-0.974,0.239,0.128
+PNP,Cadence ratio,1.001,1.004,1.026,0.390,0.011
+TIP,Joint velocity ratio,1.005,0.998,1.017,-0.034,0.831
+TIP,Lower-body RoM ratio,0.934,0.984,0.986,0.544,<0.001
+TIP,Leg swing ratio,1.011,0.866,0.898,-0.544,<0.001
+TIP,Trunk lean difference,-0.564,-1.475,-0.499,-0.092,0.564
+TIP,Cadence ratio,1.000,0.996,0.999,-0.094,0.552
