@@ -20,7 +20,7 @@ def rows(name):
 is_fine=(ROOT/'results/five_descriptor_paired_effects.csv').exists()
 fig=plt.figure(figsize=(16,4.5),facecolor='#0d1c31')
 ax=fig.add_axes([0,0,1,1]);ax.set_xlim(0,16);ax.set_ylim(0,4.5);ax.axis('off')
-ax.text(.8,3.55,'02 / DOMAIN ADAPTATION' if is_fine else '01 / RESEARCH BENCHMARK',
+ax.text(.8,3.55,'02 / DOMAIN ADAPTATION' if is_fine else '01 / BHI 2026 - ACCEPTED',
         color='#64ded0',fontsize=15,weight='bold')
 ax.text(.8,2.42,'PD-aware Fine-tuning' if is_fine else 'PD Gait Benchmark',color='white',fontsize=37,weight='bold')
 ax.text(.8,1.7,'Clinically relevant motion, with sparse sensors' if is_fine else 'Beyond pose accuracy: preserving Parkinsonian gait',color='#bdd0e2',fontsize=17)

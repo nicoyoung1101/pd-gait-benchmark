@@ -8,3 +8,4 @@ tqdm>=4.64
 scikit-learn>=1.2,<2
 chumpy==0.70
 vctoolkit>=0.1
+opencv-python>=4.7,<5

@@ -8,6 +8,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-research-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Scope](https://img.shields.io/badge/5_models-6_virtual_IMUs-159D95?style=flat-square)
+![Conference](https://img.shields.io/badge/BHI_2026-Accepted-159D95?style=flat-square)
 
 [Research question](#research-question) · [Results](#what-the-benchmark-reveals) · [Video](#motion-comparison) · [Reproduce](#get-started) · [Follow-up study](https://github.com/nicoyoung1101/pd-aware-finetuning)
 
@@ -37,7 +38,7 @@ The figure is regenerated from [reported result snapshots](results/README.md). U
 
 [**Watch or download the MP4**](assets/five-model-comparison.mp4)
 
-Same virtual-IMU walk and timestamps across all six columns. Each skeleton is pelvis-centered; displayed spacing is for comparison and does not represent predicted global translation. This is one qualitative example.
+Same virtual-IMU walk and timestamps across all six columns. Each SMPL mesh is pelvis-centered; displayed spacing is for comparison and does not represent predicted global translation. This is one qualitative example.
 
 ## Pipeline
 ![Research workflow](assets/research-workflow.png)
@@ -67,6 +68,10 @@ docs/             Methods, data contract and reproduction guide
 ```
 
 ## Research context
+**BHI 2026 · Accepted**
+
+Paper: *An Assessment of Gait Feature Preservation in Sparse Inertial Pose Estimation for Parkinsonian Gait Analysis*. [Publication notes](docs/PUBLICATION.md).
+
 This benchmark motivates [PD-aware fine-tuning](https://github.com/nicoyoung1101/pd-aware-finetuning): adapting a small part of TransPose to preserve selected clinical gait features. The related study's [ICNR 2026 poster page](https://nicoyoung1101.github.io/pd-gait-imu/) includes the presentation and qualitative reconstruction video.
 
 The experiments use **synthetic virtual IMUs**. Real wearable-sensor validation remains necessary. E-LC labels describe freezer trait at the participant level; they are not frame-level freezing annotations.

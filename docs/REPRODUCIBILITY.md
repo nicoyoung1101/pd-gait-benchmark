@@ -21,6 +21,6 @@ Acquire PIP, PNP, DynaIP and TIP as sibling directories through their original r
 
 Run the relevant `run_carepd_*_batch.py --help` entry point, then `analyze_multimodel_extended_metrics.py` for the shared metric pool. Downstream analysis scripts provide the clinical utility checks. The final curated reported snapshot and the historical script outputs are distinct, including the signed/unsigned trunk distinction described in `results/README.md`.
 
-`scripts/render_benchmark_video.py` renders a pelvis-centered six-column skeleton comparison from locally generated prediction tensors. Every column uses the same canonical walk and time indices. It avoids using global translation to compare models without reliable trajectories.
+`scripts/render_benchmark_video.py` renders a pelvis-centered six-column SMPL mesh comparison from locally generated prediction tensors. Every column uses the same canonical walk and time indices. It avoids using global translation to compare models without reliable trajectories.
 
 The published release is checked for Python syntax, portable local paths, public-data figure regeneration, result-table consistency and media integrity. A fresh end-to-end five-model rerun is not part of the release packaging validation.

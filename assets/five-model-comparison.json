@@ -1,11 +1,12 @@
 {
   "source": "MoCap-derived canonical SMPL / virtual six-IMU inputs",
-  "display": "pelvis-centered, common canonical sequence and frame indices",
+  "renderer": "original SMPL triangle surface meshes, neutral body shape",
+  "display": "pelvis-centered, matching canonical walk identity and source frames",
   "qualitative_example": true,
-  "fps": 20,
+  "fps": 12,
   "source_fps": 60,
-  "frame_stride": 3,
-  "frames": 80,
+  "frame_stride": 5,
+  "frames": 48,
   "models": [
     "GT",
     "TransPose",
